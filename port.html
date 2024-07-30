@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+background-color: #333;
+color: hsl(88, 98%, 50%);
+padding: 1rem;
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 1rem;
+}
+
+nav ul li a {
+color: rgb(190, 245, 24);
+text-decoration: none;
+}
+
+section {
+padding: 2rem;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.profile-pic {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+margin-right: 2rem;
+}
+
+.project, .skill-item {
+border: 1px solid #9de910;
+border-radius: 5px;
+padding: 1rem;
+margin: 1rem;
+width: 45%;
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+form label {
+margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+padding: 0.5rem;
+margin-top: 0.5rem;
+}
+
+footer {
+background-color: #454545;
+color: rgb(231, 255, 133);
+text-align: center;
+padding: 1rem;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Personal Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#about">✉About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section id="about">
+<h1>ABOUT ME</h1>
+<div class="flex-container">
+<img src="profile-pic (1) (1).png" alt="Your Photo" class="profile-pic">
+<p><h2>Hello! This is BHARATHI N ,A passionate web developer with experience in creating dynamic and responsive websites.</h2></p>
+</div>
+</section>
+<section id="projects">
+<h1>PROJECTS</h1>
+<div class="flex-container">
+<div class="project">
+<h2>Project 1: LOGIN PAGE</h2>
+<p>Responsive Design: Ensures a seamless user experience device. on any Input Validation: Enhances security by validating username and password inputs.Hashing: Demonstrates client-side hashing.</p>
+</div>
+<div class="project">
+<h2>Project 2: CALCULATOR</h2>
+<p>Creating a calculator using HTML, CSS, and JavaScript is a great project for honing web development skills. This project involves building a simple, yet functional, web-based calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+</div>
+</div>
+</section>
+<section id="skills">
+<h1>SKILLS</h1>
+<div class="flex-container">
+<div class="skill-item">
+<h3>HTML</h3>
+</div>
+<div class="skill-item">
+<h3>CSS</h3>
+</div>
+<div class="skill-item">
+<h3>JavaScript</h3>
+</div>
+<div class="skill-item">
+  <h3>C language</h3>
+</div>
+<div class="skill-item">
+  <h3>Python</h3>
+</div>
+</div>
+<DIV class="se"><a href="resume.pdf" target="_blank" rel="nofollow"><button type="button">RESUME</button></a></DIV>   
+</section>
+<section id="contact">
+<h1>CONTACT</h1>
+<form id="contact-form">
+<li><a href="callto:9994662649">Contact no.</a></li>
+<li><a href="mailto:bharathi2762005@gmail.com">Email</a></li>
+<li><a href="https://github.com/bharathinaren">Github</a></li>
+<li><a href="https://www.linkedin.com/in/bharathi-n-1ab10b2a4/">Linkedin</a></li>
+</form>
+</section>
+<footer>
+<p>© 2024 Bharathi's portfolio. All rights reserved.</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
